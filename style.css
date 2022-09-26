@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+}
+
+.cards-container{
+    height: 30vh;
+    width: 100vw;
+}
+
+#desktop-img{
+    height: 100vh;
+}
+#mobile-img{
+    display: none;
+}
+
+.input-container{
+    background-color: blue;
+}
+
+.credit-card{
+    display: flex;
+    position:absolute;
+}
+
+@media only screen and (max-width: 414px){
+
+#desktop-img{
+    display: none;
+}
+
+#mobile-img{
+    display: block;
+    width: 100vw;
+}
+}
